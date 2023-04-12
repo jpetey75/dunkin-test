@@ -1,5 +1,5 @@
 /*
- * This query was last updated by Jake on April 12, 2023
+ * This query was last updated by Jake on April 12 2023
  /
 
 select 
