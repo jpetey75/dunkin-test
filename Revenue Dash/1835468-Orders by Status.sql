@@ -1,7 +1,10 @@
+/* * * * *
+ * This query was last updated by Jake on April 12, 2023
+ * * * * * /
+
 select 
     status, 
-    count(1) ct,
-    ct_rou 
+    count(1) ct
 
 from ecommerce.orders o
 
