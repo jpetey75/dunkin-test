@@ -1,7 +1,7 @@
 select 
     status, 
---    count(1) as ct,
-    round(count(1)/100)*100 as ct
+    count(1) ct,
+    ct_rou 
 
 from ecommerce.orders o
 
