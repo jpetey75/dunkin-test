@@ -1,7 +1,6 @@
 /* * * * *
  * This query was last updated by Jake on April 12, 2023
  * * * * * /
-
 select 
     status, 
     count(1) ct
