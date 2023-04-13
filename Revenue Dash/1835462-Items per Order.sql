@@ -1,6 +1,7 @@
 select 
     num_of_item, 
     round(count(1)/100)*100 as ct
+    count(1) ct 
 
 from ecommerce.orders o
 
