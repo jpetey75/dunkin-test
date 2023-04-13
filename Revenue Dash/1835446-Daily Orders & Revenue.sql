@@ -1,7 +1,7 @@
 select 
     date(o.created_at) as created_date,
     cast(sum(oi.sale_price) as integer) as total,
-    COUNT(distinct o.order_id) as orders
+    count(distinct o.order_id) as orders
 
 from ecommerce.order_items oi
 
