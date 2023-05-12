@@ -4,7 +4,7 @@ select
 
 from ecommerce.orders o
 
-where date(o.created_at) >= '2022-01-01'
+where date(o.created_at) >= '2022-0-01'
     and status in ({{status}})
 
 group by 1 
