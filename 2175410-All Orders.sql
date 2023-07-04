@@ -1,2 +1,3 @@
 select * 
-from ecommerce.orders
+from ecommerce.orders 
+limit 400
