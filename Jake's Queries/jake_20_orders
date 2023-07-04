@@ -1,3 +1,0 @@
-select *
-from ecommerce.orders
-limit 20
