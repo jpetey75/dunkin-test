@@ -1,3 +1,3 @@
-select users.c
+select users.created_at
 from ecommerce.users
 limit 100
