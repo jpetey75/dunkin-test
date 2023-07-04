@@ -1,3 +1,5 @@
+--changed from popsql
+
 select 
     date(users.created_at) as date, 
     count(id) as users 
