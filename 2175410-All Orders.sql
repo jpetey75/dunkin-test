@@ -1,3 +1,4 @@
+--updated from github
 select * 
 from ecommerce.orders 
-limit 400
+limit 250
