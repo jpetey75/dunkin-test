@@ -1,6 +1,5 @@
 select 
-    date(users.created_at) as date, 
-    count(id) as users 
+    date(users.created_at) as date, count(id) as users 
 
 from ecommerce.users
 group by 1 
