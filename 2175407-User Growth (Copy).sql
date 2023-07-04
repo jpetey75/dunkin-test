@@ -1,3 +1,3 @@
-select users.id, uiser
+select users.c
 from ecommerce.users
 limit 100
