@@ -3,7 +3,7 @@ select
     cast(sum(oi.sale_price) as integer) as total,
     sum(o.num_of_item) as items,
     count(distinct o.order_id) as orders,
-    o.user_id
+    count(distinct o.user_id) as customers 
 
 from ecommerce.order_items oi
 
