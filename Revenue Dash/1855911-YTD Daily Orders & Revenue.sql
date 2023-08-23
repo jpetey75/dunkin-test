@@ -9,7 +9,6 @@ from ecommerce.order_items oi
         on o.order_id = oi.order_id
 
 where date(o.created_at) >= '2022-01-01'
-    and o.status in ({{status}})
 
 group by 1 
 order by 1
