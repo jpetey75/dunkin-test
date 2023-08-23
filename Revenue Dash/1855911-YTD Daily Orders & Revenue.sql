@@ -1,7 +1,3 @@
-/*
-  Testing file merge
-*/
-
 select 
     date(o.created_at) as created_date,
     cast(sum(oi.sale_price) as integer) as total,
