@@ -15,4 +15,4 @@ with returns as (
 
 select 
     date(returns.returned_at) as returned_date 
-    sum()
+    sum(returne)
