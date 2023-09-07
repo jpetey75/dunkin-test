@@ -10,4 +10,4 @@ select
 from ecommerce.order_items oi 
 where oi.returned_at is not null
     and oi.status = 'Returned'
-    and oi.re
+    and oi.returned_at < '20'
