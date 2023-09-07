@@ -13,3 +13,4 @@ with r as (
         and oi.status = 'Returned'
         and oi.returned_at >= '2021-01-01'    
         and oi.returned_at < '2022-01-01'
+)
