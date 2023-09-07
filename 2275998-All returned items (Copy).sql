@@ -19,4 +19,5 @@ select
     date(returned_at) as returned_date, 
     sum(returned_amount) as total_returned_amount,
     count(distinct user_id) as customers 
-from r
+from r 
+group by 1
