@@ -1,5 +1,5 @@
 select 
-    oi.id order_item_id,
+    oi.id as order_item_id,
     oi.returned_at,
     cast(round(oi.sale_price, 2) as int) as returned_amount,
 
