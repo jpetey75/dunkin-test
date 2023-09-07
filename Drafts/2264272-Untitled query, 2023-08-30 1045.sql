@@ -9,6 +9,6 @@ order by 1;
 
 select 
     oi.returned_at, 
-    sale_price
+    sale_price, 
 
 from ecommerce.order_items oi
