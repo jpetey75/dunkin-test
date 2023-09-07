@@ -12,4 +12,4 @@ select
     sale_price
 
 from ecommerce.order_items oi 
-where ret
+where returned_at is not null
