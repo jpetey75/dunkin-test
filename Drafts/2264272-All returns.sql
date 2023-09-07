@@ -1,5 +1,5 @@
 select 
-    count(distinct oi.id) as items_returned
+    oi.id) as items_returned
     oi.returned_at,
     cast(round(oi.sale_price, 2) as int) as returned_amount,
 
