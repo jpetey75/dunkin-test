@@ -17,5 +17,6 @@ with r as (
 
 select 
     returned_at, 
-    ret
+    returned_amount,
+    
 from r
