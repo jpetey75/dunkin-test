@@ -9,4 +9,4 @@ order by 1;
 
 select 
 
-from ecommerce.order_items
+from ecommerce.order_items oi
