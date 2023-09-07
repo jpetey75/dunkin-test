@@ -13,4 +13,4 @@ select
 
 from ecommerce.order_items oi 
 where oi.returned_at is not null
-group by
+group by oi
