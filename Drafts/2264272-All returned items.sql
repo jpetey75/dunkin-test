@@ -1,7 +1,7 @@
 select 
     oi.id as order_item_id,
-    oi.order_id,
     oi.product_id,
+    oi.order_id,
     oi.user_id,
     oi.returned_at,
     oi.sale_price,
