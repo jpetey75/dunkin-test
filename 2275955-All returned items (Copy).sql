@@ -13,4 +13,4 @@ with returns as (
         and oi.status = 'Returned'
 )
 
-select date(returns.returned_at)
+select date(returns.returned_at) as returned_date
