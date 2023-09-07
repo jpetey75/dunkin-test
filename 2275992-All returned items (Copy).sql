@@ -16,5 +16,5 @@ with r as (
 )
 
 select 
-    date()
+    date(r.)
 from r
