@@ -5,4 +5,4 @@ select
 
 from ecommerce.order_items oi 
 where oi.returned_at is not null
-    and oi.status =
+    and oi.status = 'Returned'
