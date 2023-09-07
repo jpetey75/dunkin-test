@@ -1,5 +1,6 @@
 select 
-    
+    oi.order_id,
+    oi.pro
     oi.id as order_item_id,
     oi.returned_at,
     cast(round(oi.sale_price, 2) as numeric) as returned_amount
