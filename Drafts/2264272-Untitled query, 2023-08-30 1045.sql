@@ -5,3 +5,6 @@ select
 from ecommerce.order_items oi 
 group by 1
 order by 1;
+
+
+selecty
