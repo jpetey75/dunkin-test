@@ -8,6 +8,6 @@ order by 1;
 
 
 select 
-    oi.
+    oi.returned_at
 
 from ecommerce.order_items oi
