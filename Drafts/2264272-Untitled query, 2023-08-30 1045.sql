@@ -18,4 +18,4 @@ group by returned_date
 order by returned_date;
 
 
-select * from ecommerce.or
+select * from ecommerce.order_items oi
