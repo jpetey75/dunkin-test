@@ -16,5 +16,6 @@ with r as (
 )
 
 select 
-    date(r.returned_at) as return_da
+    date(r.returned_at) as return_date,
+    sum()
 from r
