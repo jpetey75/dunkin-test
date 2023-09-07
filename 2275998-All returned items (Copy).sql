@@ -16,7 +16,7 @@ with r as (
 )
 
 select 
-    date(returned_at, 
+    date(returned_at) as returned_date, 
     returned_amount,
     user_id
 from r
