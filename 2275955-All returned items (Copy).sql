@@ -16,7 +16,7 @@ with returns as (
 select 
     date(returns.returned_at) as returned_date 
     sum(returns.returned_amount) as returned_amount,
-    count(distinct ord)
+    count(distinct order_item_id)
 
 from returns 
 group by 1
