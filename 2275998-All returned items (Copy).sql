@@ -17,6 +17,6 @@ with r as (
 
 select 
     date(returned_at) as returned_date, 
-    sum(returned_amount,
+    sum(returned_amount) as total_re,
     user_id
 from r
