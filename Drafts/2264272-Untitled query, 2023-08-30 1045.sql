@@ -9,4 +9,4 @@ order by 1;
 
 select 
 
-from eco
+from ecommerce.
