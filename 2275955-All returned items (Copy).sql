@@ -14,7 +14,7 @@ with returns as (
 )
 
 select 
-    date(returns.returned_at) as returned_date 
+    date(returns.returned_at) as returned_date ,
     sum(returns.returned_amount) as returned_amount,
     count(distinct order_item_id) as returned_items 
 
