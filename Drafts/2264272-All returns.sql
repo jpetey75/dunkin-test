@@ -10,8 +10,3 @@ where oi.returned_at is not null
 group by returned_date
 
 order by returned_date;
-
-
-
-select * from ecommerce.order_items oi 
-where date(returned_at) = '2019-01-30';
