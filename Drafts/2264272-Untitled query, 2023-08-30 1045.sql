@@ -15,4 +15,4 @@ select
 from ecommerce.order_items oi 
 where oi.returned_at is not null
 group by oi.returned_at
-order by oi.returned_at;
+order by returned_date;
