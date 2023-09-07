@@ -18,5 +18,5 @@ with r as (
 select 
     date(r.returned_at) as return_date,
     sum(r.returned_amount) as return_amount,
-    count(distinct r.)
+    count(distinct r.user_id)
 from r
