@@ -11,4 +11,5 @@ select
     oi.returned_at, 
     sale_price
 
-from ecommerce.order_items oi
+from ecommerce.order_items oi 
+where ret
