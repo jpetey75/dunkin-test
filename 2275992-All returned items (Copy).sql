@@ -15,4 +15,5 @@ with r as (
         and oi.returned_at < '2022-01-01'
 )
 
-select
+select 
+from r
