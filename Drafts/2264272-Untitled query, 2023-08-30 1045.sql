@@ -18,4 +18,4 @@ group by returned_date
 order by returned_date;
 
 
-select * from
+select * from ecomm
