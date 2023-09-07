@@ -1,6 +1,6 @@
 select 
-    oi.order_id,
     oi.id as order_item_id,
+    oi.order_id,
     oi.product_id,
     oi.user_id,
     oi.returned_at,
