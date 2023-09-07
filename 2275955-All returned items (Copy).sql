@@ -1,4 +1,4 @@
-with reselect 
+with returns as (select 
     oi.id as order_item_id,
     oi.product_id,
     oi.order_id,
