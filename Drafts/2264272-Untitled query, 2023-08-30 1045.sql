@@ -9,7 +9,7 @@ order by 1;
 
 select 
     oi.returned_at, 
-    oi.sale_price
+    sum(oi.sale_price
 
 from ecommerce.order_items oi 
 where oi.returned_at is not null
