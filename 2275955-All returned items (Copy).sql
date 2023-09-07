@@ -10,7 +10,8 @@ with returns as (
 
     from ecommerce.order_items oi 
     where oi.returned_at is not null
-    and oi.returned_at < '2022-01-01'        and oi.status = 'Returned'
+        and oi.returned_at < '2022-01-01'        
+        and oi.status = 'Returned'
 )
 
 select 
