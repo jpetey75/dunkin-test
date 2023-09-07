@@ -13,4 +13,4 @@ with returns as (
         and oi.status = 'Returned'
 )
 
-select
+select date()
