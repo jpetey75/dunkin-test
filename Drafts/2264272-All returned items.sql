@@ -1,7 +1,7 @@
 select 
     oi.order_id,
     oi.product_id,
-    oi.
+    oi.user_id,
     oi.id as order_item_id,
     oi.returned_at,
     cast(round(oi.sale_price, 2) as numeric) as returned_amount
