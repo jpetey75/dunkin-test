@@ -19,4 +19,4 @@ order by returned_date;
 
 
 select * from ecommerce.order_items oi 
-where re
+where returned_at
