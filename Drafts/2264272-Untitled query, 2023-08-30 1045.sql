@@ -9,7 +9,7 @@ order by 1;
 
 select 
     date(oi.returned_at) as returned_date, 
-    sum(cast(oi.sale_price) as returned_amount,
+    sum(cast(oi.sale_price as ) as returned_amount,
     count(oi.id) as items_returned
 
 from ecommerce.order_items oi 
