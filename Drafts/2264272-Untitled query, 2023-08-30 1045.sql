@@ -19,4 +19,4 @@ order by returned_date;
 
 
 select * from ecommerce.order_items oi 
-where returned_at) =
+where returned_at) = '2019-01-30'
