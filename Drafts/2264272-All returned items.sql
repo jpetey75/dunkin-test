@@ -1,10 +1,10 @@
 select 
+    oi.returned_at,
     oi.order_id,
     oi.product_id,
     oi.user_id,
-    oi.sale_price,
     oi.id as order_item_id,
-    oi.returned_at,
+    oi.sale_price,
     cast(round(oi.sale_price, 2) as numeric) as returned_amount
 
 from ecommerce.order_items oi 
