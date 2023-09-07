@@ -10,7 +10,7 @@ order by 1;
 select 
     oi.returned_at, 
     sum(oi.sale_price) as returned_amount,
-    count()
+    count(oi.)
 
 from ecommerce.order_items oi 
 where oi.returned_at is not null
