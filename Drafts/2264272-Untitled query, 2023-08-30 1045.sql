@@ -8,7 +8,7 @@ order by 1;
 
 
 select 
-    date(oi.returned_at, 
+    date(oi.returned_at) as re, 
     sum(oi.sale_price) as returned_amount,
     count(oi.id) as items_returned
 
