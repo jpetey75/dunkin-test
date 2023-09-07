@@ -18,5 +18,5 @@ with r as (
 select 
     returned_at, 
     returned_amount,
-    
+    user_id
 from r
