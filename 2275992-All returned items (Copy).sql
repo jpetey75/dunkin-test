@@ -21,3 +21,4 @@ select
     count(distinct r.user_id) as customers 
 from r 
 group by return_date
+order by return_date
