@@ -16,5 +16,5 @@ with r as (
 )
 
 select 
-    date(r.)
+    date(r.returned_at)
 from r
