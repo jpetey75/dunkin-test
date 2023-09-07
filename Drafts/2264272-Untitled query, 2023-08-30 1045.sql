@@ -8,6 +8,6 @@ order by 1;
 
 
 select 
-    date
+    oi.
 
 from ecommerce.order_items oi
