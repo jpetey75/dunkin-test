@@ -1,4 +1,5 @@
 with returns as (
+    
     select 
         oi.id as order_item_id,
         oi.product_id,
@@ -14,7 +15,7 @@ with returns as (
         and oi.returned_at < '2022-01-01'        
         and oi.returned_at >= '2021-01-01'    
         and oi.status = 'Returned'
-        
+
 )
 
 select 
