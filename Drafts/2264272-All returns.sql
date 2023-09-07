@@ -1,6 +1,6 @@
 select 
     oi.returned_at,
-    sum(cast(round(oi.sale_price, 2) as int)) as returned_amount,
+    cast(round(oi.sale_price, 2) as int)) as returned_amount,
     count(distinct oi.id) as items_returned
 
 from ecommerce.order_items oi 
