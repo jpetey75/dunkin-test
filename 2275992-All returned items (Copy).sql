@@ -17,5 +17,5 @@ with r as (
 
 select 
     date(r.returned_at) as return_date,
-    sum()
+    sum(r.re)
 from r
