@@ -16,4 +16,4 @@ with returned_items as (
 )
 
 select 
-from re
+from returned_items
