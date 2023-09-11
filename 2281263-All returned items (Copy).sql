@@ -16,5 +16,6 @@ where oi.returned_at is not null
 )
 
 select 
-    date(returned_at)
+    date(returned_at) as returned_date, 
+    
 from all_returns
