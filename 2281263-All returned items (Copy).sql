@@ -16,5 +16,5 @@ where oi.returned_at is not null
 )
 
 select 
-    returned_at)
+    datereturned_at)
 from all_returns
