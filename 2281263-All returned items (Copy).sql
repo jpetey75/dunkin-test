@@ -16,5 +16,5 @@ where oi.returned_at is not null
 )
 
 select 
-    
+    retu
 from all_returns
