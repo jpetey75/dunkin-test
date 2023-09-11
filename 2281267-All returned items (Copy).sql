@@ -16,6 +16,7 @@ with returned_items as (
 )
 
 select 
-    date(re)
+    date(returned_at) as return_date, 
+    
 from returned_items
 group by 1
