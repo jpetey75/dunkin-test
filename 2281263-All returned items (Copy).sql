@@ -17,5 +17,5 @@ where oi.returned_at is not null
 
 select 
     date(returned_at) as returned_date, 
-    count(distinct orde)
+    count(distinct order_item_id)
 from all_returns
