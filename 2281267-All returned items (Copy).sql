@@ -17,3 +17,4 @@ with returned_items as (
 
 select 
 from returned_items
+group by 1
