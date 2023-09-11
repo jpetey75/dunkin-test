@@ -1,4 +1,4 @@
-with r
+with return
 select 
     oi.id as order_item_id,
     oi.product_id,
