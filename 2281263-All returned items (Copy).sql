@@ -16,4 +16,5 @@ where oi.returned_at is not null
 )
 
 select 
+    
 from all_returns
