@@ -20,4 +20,5 @@ select
     count(distinct order_item_id) as items_returend, 
     sum(returned_amount) as total_return_amount 
 
-from all_returns
+from all_returns 
+group by 1
