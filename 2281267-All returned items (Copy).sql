@@ -19,5 +19,5 @@ select
     date(returned_at) as return_date, 
     sum(returned_amount) as return_amount, 
     count(*)
-from returned_items
+ from returned_items
 group by 1
