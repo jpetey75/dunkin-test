@@ -21,4 +21,5 @@ select
     sum(returned_amount) as total_return_amount 
 
 from all_returns 
-group by 1
+group by 1 
+order by 1
