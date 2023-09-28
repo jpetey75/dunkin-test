@@ -9,6 +9,7 @@ where date(o.created_at) >= '2022-03-01'
 
 group by 1 
 order by 1select 
+order by 1select 
     num_of_item, 
     round(count(1)/100)*100 as ct
 
