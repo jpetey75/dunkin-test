@@ -5,4 +5,7 @@ select
 from dbt.orders 
 where order_status in ({{order_status}})
 group by 1 
-order by 1
+order by 1 
+
+
+select order
