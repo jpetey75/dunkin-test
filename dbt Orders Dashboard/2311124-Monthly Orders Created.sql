@@ -3,4 +3,5 @@ select
     count(1) as orders,
     sum(order_total) as revenue
 from dbt.orders 
-group
+group by 1 
+or
