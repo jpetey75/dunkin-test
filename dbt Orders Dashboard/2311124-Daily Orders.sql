@@ -1,1 +1,2 @@
-select * from dbt.orders
+select * 
+from dbt.orders
