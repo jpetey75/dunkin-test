@@ -4,4 +4,4 @@ select
     sum(order_total) as revenue
 from dbt.orders 
 group by 1 
-or
+orer by 1
