@@ -8,4 +8,4 @@ group by 1
 order by 1 
 
 
-select order_status
+select order_status from
