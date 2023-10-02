@@ -8,4 +8,4 @@ group by 1
 order by 1 
 
 
-select order_status from dbt.ordres
+select order_status from dbt.orders group
