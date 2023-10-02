@@ -11,6 +11,4 @@ order by 1
 select order_status from dbt.orders group by 1 
 
 
-Shipped,
-Complete,
-Returned,Cancelled,Processing
+Shipped,Complete,Returned,Cancelled,Processing
