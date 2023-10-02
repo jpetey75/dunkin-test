@@ -1,5 +1,5 @@
 select 
     order_created_month,
-    count()
+    count(1)
 from dbt.orders 
 limit 10
