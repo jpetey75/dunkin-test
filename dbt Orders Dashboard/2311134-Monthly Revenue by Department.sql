@@ -1,5 +1,5 @@
 select 
-    order_created_creaat,
+    crea,
     round(sum(order_total_mens)) as mens,
     round(sum(order_total_womens)) as womens
 from dbt.orders 
