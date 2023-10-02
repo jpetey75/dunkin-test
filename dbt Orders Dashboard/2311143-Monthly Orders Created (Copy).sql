@@ -5,4 +5,4 @@ select
 from dbt.orders 
 group by 1 
 order by 1 
-liit 2
+limit 2
