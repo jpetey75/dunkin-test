@@ -12,5 +12,6 @@
   "2264272": "2264272-Returned Order Items and Amounts in 2021.sql",
   "2281267": "Revenue Dash/2281267-Daily Return Amount and Count for 2021.sql",
   "2107947": "Drafts/2107947-Items in Order.sql",
-  "2311124": "dbt Orders Dashboard/2311124-Monthly Orders Created.sql"
+  "2311124": "dbt Orders Dashboard/2311124-Monthly Orders Created.sql",
+  "2311134": "dbt Orders Dashboard/2311134-Monthly Orders Created (Copy).sql"
 }
