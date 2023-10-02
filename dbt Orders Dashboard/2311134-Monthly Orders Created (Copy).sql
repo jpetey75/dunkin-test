@@ -1,5 +1,5 @@
 select 
-    order_created_month,
+    ship,
     count(1) as orders,
     round(sum(order_total)) as revenue
 from dbt.orders 
