@@ -1,2 +1,3 @@
 select * 
-from dbt.orders
+from dbt.orders 
+limit 10
