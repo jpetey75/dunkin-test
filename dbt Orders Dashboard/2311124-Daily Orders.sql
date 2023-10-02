@@ -1,1 +1,1 @@
-select * from dbt_jake.orders
+select * from dbt.orders
