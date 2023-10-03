@@ -30,4 +30,5 @@ total as (
     group by 1 
 )
 
-select
+select 
+from total
