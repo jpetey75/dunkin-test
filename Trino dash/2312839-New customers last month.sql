@@ -31,5 +31,7 @@ total as (
 )
 
 select 
+    total.d_date, 
+    
 from total, new 
 where total.d_date = new.d_date
