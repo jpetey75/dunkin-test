@@ -1,6 +1,9 @@
 with new as (
     select 
-        dd.d_date,
+    case   
+        when dd.d_moy = 1 then 'previous month'
+        when dd.d_moy = 2 then 'last month'
+        else 'error' end as mth,
         count(1) as new_customers 
 
     from sf1.customer c 
