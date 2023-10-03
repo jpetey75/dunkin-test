@@ -3,6 +3,7 @@ select
     count(1) as customers 
 
 from sf1.customer c 
+    inner join sf1.da
 where c_birth_country is not null 
 
 group by 1 
