@@ -25,7 +25,6 @@ total as (
             and dd.d_date >= date '1998-01-01'
             and dd.d_date < date '1998-02-01'
 
-    group by 1 
 )
 
 select 
