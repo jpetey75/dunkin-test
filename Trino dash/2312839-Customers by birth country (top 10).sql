@@ -2,7 +2,7 @@ select
     c_birth_country,
     count(1) as customers 
 
-from sf1.customer 
+from sf1.customer c 
 where c_birth_country is not null 
 
 group by 1 
