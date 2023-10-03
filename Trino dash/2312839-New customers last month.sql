@@ -19,7 +19,7 @@ total as (
 
     select 
         dd.d_date,
-        count(ss.ss_customer_sk) as total_quantity,
+        count(ss.ss_customer_sk) as customers ,
         sum(ss.ss_net_paid) as total_paid  
 
     from sf1.store_sales ss 
