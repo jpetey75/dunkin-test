@@ -42,4 +42,4 @@ select
     total_customers - new_customers as returning_customers 
 
 from total, new 
-where total.d_date = new.d_date
+where total.d_date = new.mth
