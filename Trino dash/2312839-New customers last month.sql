@@ -32,4 +32,4 @@ total as (
 
 select 
 from total, new 
-where total.date =
+where total.date = new.date
