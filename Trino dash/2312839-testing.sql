@@ -1,1 +1,2 @@
-select
+select c_birth_country
+from custom
