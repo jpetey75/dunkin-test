@@ -13,7 +13,9 @@ with new as (
     where c_birth_country is not null 
 
     group by 1 
-), total as (
+), 
+
+total as (
 
     select 
         dd.d_date,
