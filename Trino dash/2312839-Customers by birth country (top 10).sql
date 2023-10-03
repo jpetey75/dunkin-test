@@ -10,5 +10,4 @@ from sf1.customer c
 where c_birth_country is not null 
 
 group by 1 
-order by 2 desc 
-limit 10
+order by 1
