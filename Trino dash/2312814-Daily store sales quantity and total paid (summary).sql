@@ -10,6 +10,6 @@ from sf1.store_sales ss
 
     inner join sf1.date_dim dd on dd.d_date_sk = ss.ss_sold_date_sk 
         and dd.d_date >= date '1998-01-01'
-        and dd.d_date < date '{{to_date}}'
+        and dd.d_date <= date '{{to_date}}'
 
 group by 1
