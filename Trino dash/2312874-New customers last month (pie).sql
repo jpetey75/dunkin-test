@@ -25,7 +25,8 @@ total as (
 
 )
 
-select 'New' as label, new_customers, 
+select 'New' as label, new_customers
+, 
     total_customers - new_customers as returning_customers 
 
 from total, new
