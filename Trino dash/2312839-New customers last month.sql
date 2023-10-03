@@ -32,6 +32,7 @@ total as (
 
 select 
     total.d_date, 
+    new_customers, 
     
 from total, new 
 where total.d_date = new.d_date
