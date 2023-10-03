@@ -1,4 +1,5 @@
-select 
+with new as (
+    select 
     dd.d_date,
     count(1) as customers 
 
