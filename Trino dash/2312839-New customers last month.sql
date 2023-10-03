@@ -19,9 +19,8 @@ total as (
 
     select 
         dd.d_date,
-        count(distinct ss.ss_customer_sk) as customers,
-        sum(ss.ss_net_paid) as total_paid  
-
+        count(distinct ss.ss_customer_sk) as customers
+ 
     from sf1.store_sales ss 
 
         inner join sf1.date_dim dd on dd.d_date_sk = ss.ss_sold_date_sk 
