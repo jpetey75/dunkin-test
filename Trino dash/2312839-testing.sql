@@ -4,4 +4,4 @@ select
 
 from sf1.customer 
 group by 1 
-or
+order by 2 desc
