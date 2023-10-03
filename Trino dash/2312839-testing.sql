@@ -1,2 +1,2 @@
 select c_birth_country
-from custom
+from sk1
