@@ -21,10 +21,10 @@ with new as (
 total as (
 
     select 
-    case   
-        when dd.d_moy = 1 then 'previous month'
-        when dd.d_moy = 2 then 'last month'
-        else 'error' end as mth,
+        case   
+            when dd.d_moy = 1 then 'previous month'
+            when dd.d_moy = 2 then 'last month'
+            else 'error' end as mth,
         count(distinct ss.ss_customer_sk) as total_customers
  
     from sf1.store_sales ss 
