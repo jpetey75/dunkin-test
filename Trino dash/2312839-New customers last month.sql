@@ -27,4 +27,4 @@ with new as (
             and dd.d_date < date '1998-03-01'
 
     group by 1 
-    order by 1
+)
