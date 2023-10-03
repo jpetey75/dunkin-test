@@ -33,6 +33,6 @@ total as (
 select 
     total.d_date, 
     new_customers, 
-    total
+    total_customers-new
 from total, new 
 where total.d_date = new.d_date
