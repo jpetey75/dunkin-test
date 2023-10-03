@@ -25,7 +25,7 @@ total as (
 
         inner join sf1.date_dim dd on dd.d_date_sk = ss.ss_sold_date_sk 
             and dd.d_date >= date '1998-02-01'
-            and dd.d_date <= date '1998-03-01'
+            and dd.d_date <= date ''
 
     group by 1 
 )
