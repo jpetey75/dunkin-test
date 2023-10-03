@@ -1,6 +1,5 @@
 with new as (
     select 
-        dd.d_date,
         count(1) as new_customers 
 
     from sf1.customer c 
