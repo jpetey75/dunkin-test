@@ -31,4 +31,5 @@ total as (
 )
 
 select 
-from total
+from total, new 
+where total.
