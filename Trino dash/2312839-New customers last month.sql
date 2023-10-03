@@ -19,7 +19,7 @@ total as (
 
     select 
         dd.d_date,
-        count(distinct ss.ss_customer_sk) as customers
+        count(distinct ss.ss_customer_sk) as total_customers
  
     from sf1.store_sales ss 
 
