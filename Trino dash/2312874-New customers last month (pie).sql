@@ -27,8 +27,4 @@ total as (
 
 select 'New' as label, new_customers from new 
 union all  
-select 'Returning' as label, new_customers from new,total 
-
-     as returning_customers 
-
-from total, new
+select 'Returning' as label, total_customers - new_customers from new,total
