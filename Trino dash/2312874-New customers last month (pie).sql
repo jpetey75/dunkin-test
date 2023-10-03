@@ -10,7 +10,6 @@ with new as (
             and dd.d_date < date '1998-02-01'
 
     where c_birth_country is not null 
-
 ), 
 
 total as (
