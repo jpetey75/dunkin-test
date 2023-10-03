@@ -16,5 +16,6 @@
   "2311151": "dbt Orders Dashboard/2311151-Monthly Department Big numbers.sql",
   "2312814": "Trino dash/2312814-Daily store sales quantity and total paid (summary).sql",
   "2312736": "Trino dash/2312736-Daily store sales quantity and total paid.sql",
-  "2312839": "Trino dash/2312839-New customers last month.sql"
+  "2312839": "Trino dash/2312839-New customers last month.sql",
+  "2312858": "Trino dash/2312858-New customers last month (summary).sql"
 }
