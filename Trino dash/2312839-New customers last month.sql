@@ -13,4 +13,5 @@ with new as (
     where c_birth_country is not null 
 
     group by 1 
-    order by 1
+    order by 1 
+)
