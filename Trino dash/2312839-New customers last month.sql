@@ -29,3 +29,5 @@ total as (
 
     group by 1 
 )
+
+select
