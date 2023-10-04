@@ -4,7 +4,7 @@ with returned_items as (
         oi.product_id,
         oi.order_id,
         oi.user_id,
-        oi.sale_price,
+        oi.sale_pricee,
         oi.returned_at,
         cast(round(oi.sale_price, 2) as numeric) as returned_amount
 
