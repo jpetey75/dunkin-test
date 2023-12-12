@@ -1,7 +1,7 @@
 with returned_items as (
 
     select
-        oi.id as order_item_id,
+    oi.id as order_item_id,
         oi.product_id,
         oi.order_id,
         oi.user_id,
