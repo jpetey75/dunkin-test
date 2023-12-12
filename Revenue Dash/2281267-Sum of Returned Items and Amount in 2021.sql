@@ -18,8 +18,8 @@ with returned_items as (
 )
 
 select
-    date(returned_at) as return_date, 
-    sum(returned_amount) as return_amount, 
+    date(returned_at) as return_date,
+    sum(returned_amount) as return_amount,
     count(*) as returned_items 
 
 from returned_items
